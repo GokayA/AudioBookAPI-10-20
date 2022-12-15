@@ -4,7 +4,7 @@ import os
 import tkinter as tk
 from tkinter.filedialog import askopenfilename
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'texttospeech-371713-e72692988d7f.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'KEY.json'
 client = texttospeech.TextToSpeechClient()
 
 filename = None
